@@ -43,7 +43,7 @@ app.post('/orders', (req: Request, res: Response) => {
     res.send('Order created');
 });
 
-// Endpoint untuk mendapatkan semua order
+// Perbaikan Endpoint untuk mendapatkan semua order
 app.get('/orders', (req: Request, res: Response) => {
     // Logika untuk mendapatkan semua order
     res.send('List of orders');
